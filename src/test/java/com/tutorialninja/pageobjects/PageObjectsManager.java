@@ -21,7 +21,7 @@ public class PageObjectsManager {
 	}
 	
 	public RegistrationPage getRegistrationPage() {
-		registrationPage = new RegistrationPage();
+		registrationPage = new RegistrationPage(driver);
 		return registrationPage;
 	}
 	
