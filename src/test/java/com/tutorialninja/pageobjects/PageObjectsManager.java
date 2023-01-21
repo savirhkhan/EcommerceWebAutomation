@@ -8,6 +8,9 @@ public class PageObjectsManager {
 	
 	private HomePage homePage;
 	private RegistrationPage registrationPage;
+	private LoginPage loginPage;
+	private MyAccountPage myAccountPage;
+	private ForgotPasswordPage forgotPasswordPage;
 	private WebDriver driver;
 
 	
@@ -24,6 +27,22 @@ public class PageObjectsManager {
 		registrationPage = new RegistrationPage(driver);
 		return registrationPage;
 	}
+	
+	public LoginPage getLoginPage() {
+		loginPage = new LoginPage(driver);
+		return loginPage;
+	}
+	
+	public MyAccountPage getMyAccountPage() {
+		myAccountPage = new MyAccountPage(driver);
+		return myAccountPage;
+	}
+	
+	public ForgotPasswordPage getForgotPasswordPage() {
+		forgotPasswordPage = new ForgotPasswordPage(driver);
+		return forgotPasswordPage;
+	}
+	
 	
 	
 	
