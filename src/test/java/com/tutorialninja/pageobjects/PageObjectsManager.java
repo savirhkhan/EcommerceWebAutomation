@@ -11,6 +11,7 @@ public class PageObjectsManager {
 	private LoginPage loginPage;
 	private MyAccountPage myAccountPage;
 	private ForgotPasswordPage forgotPasswordPage;
+	private SerachResultsPage serachResultsPage;
 	private WebDriver driver;
 
 	
@@ -42,6 +43,14 @@ public class PageObjectsManager {
 		forgotPasswordPage = new ForgotPasswordPage(driver);
 		return forgotPasswordPage;
 	}
+	
+	public SerachResultsPage getSerachResultsPage() {
+		serachResultsPage = new SerachResultsPage(driver);
+		return serachResultsPage;
+	}
+	
+	
+	
 	
 	
 	

@@ -23,6 +23,13 @@ public class HomePage {
 	@FindBy(linkText = "Login")
 	public WebElement loginLink;
 	
+	@FindBy(name = "search")
+	public WebElement searchBox;
+	
+	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
+	public WebElement searchButton;
+	
+	
 	
 	
 
