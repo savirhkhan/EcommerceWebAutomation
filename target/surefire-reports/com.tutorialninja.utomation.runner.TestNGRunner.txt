@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.tutorialninja.utomation.runner.TestNGRunner
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.852 s <<< FAILURE! - in com.tutorialninja.utomation.runner.TestNGRunner
+com.tutorialninja.utomation.runner.TestNGRunner.runScenario["Verify Whether the User is not able to login with invalid credentials", "Login functionality scenarios"](2)  Time elapsed: 3.267 s  <<< FAILURE!
+java.lang.AssertionError: expected [Warning: No match for E-Mail Address and/or Password.] but found [Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.]
+

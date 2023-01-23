@@ -20,6 +20,10 @@ public class SerachResultsPage {
 	@FindBy(css = "input[type='button']+h2+p")
 	public WebElement noSearchResultsAvailableMessage;
 	
+	@FindBy(xpath = "//div[@class='button-group']//button[1]")
+	public WebElement firstAddToCartOption;
+	
+	
 	
 	
 

@@ -30,6 +30,10 @@ public class HomePage {
 	public WebElement searchButton;
 	
 	
+	@FindBy(xpath = "//a[@title='Shopping Cart']//i[@class='fa fa-shopping-cart']")
+	public WebElement navigateToShoppingCartPage;
+	
+	
 	
 	
 

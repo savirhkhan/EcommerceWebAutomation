@@ -12,6 +12,7 @@ public class PageObjectsManager {
 	private MyAccountPage myAccountPage;
 	private ForgotPasswordPage forgotPasswordPage;
 	private SerachResultsPage serachResultsPage;
+	private ShoppingCartPage shoppingCartPage;
 	private WebDriver driver;
 
 	
@@ -47,6 +48,10 @@ public class PageObjectsManager {
 	public SerachResultsPage getSerachResultsPage() {
 		serachResultsPage = new SerachResultsPage(driver);
 		return serachResultsPage;
+	}
+	public ShoppingCartPage getShoppingCartPage() {
+		shoppingCartPage = new ShoppingCartPage(driver);
+		return shoppingCartPage;
 	}
 	
 	
