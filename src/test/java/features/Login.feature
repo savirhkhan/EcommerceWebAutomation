@@ -11,7 +11,7 @@ Scenario: Verify Whether the User is able to login with valid credentials
 Scenario: Verify Whether the User is not able to login with invalid credentials
     Given I launch the application
     And I navigate to Account Login Page
-    When I login to application using Username "virsa6147782@gmail.com" and Password "testpass1"
+    When I login to application using Username "vvirsa6147782@gmail.com" and Password "testpass1"
     Then I should see that the credentials are invalid
     
 @Login @three
